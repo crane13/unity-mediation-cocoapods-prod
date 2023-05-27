@@ -19,7 +19,7 @@ Your use of Unity Monetization constitutes your acceptance of such terms. Unless
     spec.vendored_frameworks  = "UnityMediationAdmobAdapter.xcframework"
     spec.dependency "UnityMediationSdk", ">= 0.5"
     spec.dependency "UnityMediationAdapter", "~> 3.0"
-    spec.dependency "Google-Mobile-Ads-SDK", "~> 9.0"
+    spec.dependency "Google-Mobile-Ads-SDK", "~> 10.5.0"
     spec.pod_target_xcconfig = {
       "VALID_ARCHS[sdk=iphonesimulator*]" => "x86_64 arm64",
       "VALID_ARCHS[sdk=iphoneos*]" => "arm64 armv7",
